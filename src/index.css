@@ -19,4 +19,68 @@
       scale-0 origin-left
     ;
   }
+
+  .top-navigation {
+    @apply flex flex-row items-center justify-evenly
+      bg-gray-300 dark:bg-gray-700 bg-opacity-90
+      w-full h-16 m-0 shadow-lg
+    ;
+  }
+
+  .top-navigation-icon {
+    @apply text-gray-500 mr-3 ml-4 transition
+      duration-300 ease-in-out hover:text-pink-400
+      cursor-pointer
+    ;
+  }
+
+  .title-hashtag {
+    @apply text-lg tracking-wider font-semibold 
+      text-gray-500 ml-2 my-auto
+    ;
+  }
+
+  .title-text {
+    @apply text-xl text-gray-500 tracking-wider
+      font-semibold text-opacity-80 mr-auto ml-2
+      my-auto transition duration-200 ease-in-out
+    ;
+  }
+
+  .content-container {
+    @apply flex flex-col bg-gray-300 dark:bg-gray-700
+      m-0 h-screen w-full overflow-hidden
+    ;
+  }
+
+  .content-list {
+    @apply flex flex-col items-center h-full w-full
+      mt-0 ml-0 mx-auto px-0 pb-12 overflow-y-scroll
+    ;
+  }
+
+  .channel-bar {
+    @apply w-80 h-auto m-0 ml-16 bg-gray-200 
+      dark:bg-gray-800
+    ;
+  }
+
+  .channel-container {
+    @apply flex flex-col items-center justify-start
+      p-1 m-0
+    ;
+  }
+
+  .channel-block {
+    @apply flex items-center justify-center
+      h-16 m-0 p-0
+    ;
+  }
+
+  .channel-block-text {
+    @apply text-lg tracking-wider font-bold
+      text-gray-600 dark:text-gray-400
+      mr-auto ml-4 my-auto align-middle
+    ;
+  }
 }
