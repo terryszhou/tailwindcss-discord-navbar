@@ -13,10 +13,10 @@ export const ChannelBar = () => (
 
     </div>
   </div>
-)
+);
 
 const ChannelBlock = () => (
   <div className="channel-block">
     <h5 className="channel-block-text">Channels</h5>
   </div>
-)
+);
